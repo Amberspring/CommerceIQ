@@ -1,0 +1,131 @@
+[
+  {
+    "repository": "maks-sh/scikit-uplift",
+    "url": "https://github.com/maks-sh/scikit-uplift",
+    "stars": 818,
+    "pushed_at": "2023-10-21T16:05:46Z",
+    "archived": false,
+    "license": "MIT",
+    "revision": "0038e659428f6e7a49b935b850651cd9a9db3f54",
+    "inspected": [
+      {
+        "path": "sklift/datasets/datasets.py",
+        "status": 200,
+        "permalink": "https://github.com/maks-sh/scikit-uplift/tree/0038e659428f6e7a49b935b850651cd9a9db3f54/sklift/datasets/datasets.py"
+      },
+      {
+        "path": "sklift/metrics/metrics.py",
+        "status": 200,
+        "permalink": "https://github.com/maks-sh/scikit-uplift/tree/0038e659428f6e7a49b935b850651cd9a9db3f54/sklift/metrics/metrics.py"
+      },
+      {
+        "path": "LICENSE",
+        "status": 200,
+        "permalink": "https://github.com/maks-sh/scikit-uplift/tree/0038e659428f6e7a49b935b850651cd9a9db3f54/LICENSE"
+      }
+    ]
+  },
+  {
+    "repository": "uber/causalml",
+    "url": "https://github.com/uber/causalml",
+    "stars": 6015,
+    "pushed_at": "2026-10-04T01:44:37Z",
+    "archived": false,
+    "license": "NOASSERTION",
+    "revision": "38e3787bede344e75221c53757cd59168bde9998",
+    "inspected": [
+      {
+        "path": "README.md",
+        "status": 200,
+        "permalink": "https://github.com/uber/causalml/tree/38e3787bede344e75221c53757cd59168bde9998/README.md"
+      },
+      {
+        "path": "LICENSE",
+        "status": 200,
+        "permalink": "https://github.com/uber/causalml/tree/38e3787bede344e75221c53757cd59168bde9998/LICENSE"
+      }
+    ]
+  },
+  {
+    "repository": "feldlime/X5RetailHeroUplift",
+    "url": "https://github.com/feldlime/X5RetailHeroUplift",
+    "stars": 3,
+    "pushed_at": "2020-03-18T18:51:05Z",
+    "archived": false,
+    "license": "MIT",
+    "revision": "2bd4955148b37005fa7b96b5bf5634aefb7df772",
+    "inspected": [
+      {
+        "path": "load_and_prepare.py",
+        "status": 200,
+        "permalink": "https://github.com/feldlime/X5RetailHeroUplift/tree/2bd4955148b37005fa7b96b5bf5634aefb7df772/load_and_prepare.py"
+      },
+      {
+        "path": "features",
+        "status": 200,
+        "permalink": "https://github.com/feldlime/X5RetailHeroUplift/tree/2bd4955148b37005fa7b96b5bf5634aefb7df772/features"
+      },
+      {
+        "path": "LICENSE",
+        "status": 200,
+        "permalink": "https://github.com/feldlime/X5RetailHeroUplift/tree/2bd4955148b37005fa7b96b5bf5634aefb7df772/LICENSE"
+      }
+    ]
+  },
+  {
+    "repository": "michaelf108/ecommerce-analytics-dbt",
+    "url": "https://github.com/michaelf108/ecommerce-analytics-dbt",
+    "stars": 1,
+    "pushed_at": "2026-07-18T20:43:51Z",
+    "archived": false,
+    "license": "MIT",
+    "revision": "0e10734d7b7a591dd6e45d2c9dd9b03df831661b",
+    "inspected": [
+      {
+        "path": "README.md",
+        "status": 200,
+        "permalink": "https://github.com/michaelf108/ecommerce-analytics-dbt/tree/0e10734d7b7a591dd6e45d2c9dd9b03df831661b/README.md"
+      },
+      {
+        "path": "models",
+        "status": 200,
+        "permalink": "https://github.com/michaelf108/ecommerce-analytics-dbt/tree/0e10734d7b7a591dd6e45d2c9dd9b03df831661b/models"
+      },
+      {
+        "path": "LICENSE",
+        "status": 200,
+        "permalink": "https://github.com/michaelf108/ecommerce-analytics-dbt/tree/0e10734d7b7a591dd6e45d2c9dd9b03df831661b/LICENSE"
+      }
+    ]
+  },
+  {
+    "repository": "miguelvotre/olist-ecommerce-analytics",
+    "url": "https://github.com/miguelvotre/olist-ecommerce-analytics",
+    "stars": 3,
+    "pushed_at": "2026-05-11T14:18:46Z",
+    "archived": false,
+    "license": "MIT",
+    "revision": "ac2b1b4e5abf84d086809fd2a9751f3c39fef4f0",
+    "inspected": [
+      {
+        "path": "README.md",
+        "status": 200,
+        "permalink": "https://github.com/miguelvotre/olist-ecommerce-analytics/tree/ac2b1b4e5abf84d086809fd2a9751f3c39fef4f0/README.md"
+      },
+      {
+        "path": "dbt",
+        "status": 200,
+        "permalink": "https://github.com/miguelvotre/olist-ecommerce-analytics/tree/ac2b1b4e5abf84d086809fd2a9751f3c39fef4f0/dbt"
+      },
+      {
+        "path": "LICENSE",
+        "status": 200,
+        "permalink": "https://github.com/miguelvotre/olist-ecommerce-analytics/tree/ac2b1b4e5abf84d086809fd2a9751f3c39fef4f0/LICENSE"
+      }
+    ]
+  },
+  {
+    "repository": "Ucazin/olist-ecommerce-analytics",
+    "status": "Unavailable via GitHub API; search preview only"
+  }
+]

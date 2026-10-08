@@ -1,0 +1,24 @@
+{
+  "provenance": "本轮 Codex 助手生成并保存的分析候选与校验用反例；不是事后虚构的 API 调用记录。候选和审核由同一助手完成，用户尚未独立审核。",
+  "prompt": "基于 Olist 的真实订单与已定义的完成订单商品 GMV，解释 2018-05 到 2018-06 的变化。先检查口径和关联粒度，再提出可执行 SQL 与业务假设。区分算术贡献、观测关联和未验证机制；不得补造流量、库存或活动数据。",
+  "sql_candidates": [
+    {
+      "id": "join_stress_example",
+      "purpose": "主动构造的多对多 JOIN 校验反例，验证审核能否发现金额膨胀；不是生产候选或历史事故。",
+      "sql": "SELECT CAST(DATE_TRUNC('month',o.order_purchase_timestamp) AS DATE) AS month, SUM(i.price) AS gmv FROM raw_orders o JOIN raw_order_items i USING(order_id) LEFT JOIN raw_order_payments p USING(order_id) LEFT JOIN raw_order_reviews r USING(order_id) WHERE o.order_status='delivered' AND o.order_purchase_timestamp >= DATE '2018-05-01' AND o.order_purchase_timestamp < DATE '2018-07-01' GROUP BY 1 ORDER BY 1"
+    },
+    {
+      "id": "accepted_order_grain",
+      "purpose": "复用已有订单粒度模型，避免重复计数。",
+      "sql": "SELECT month,SUM(item_gmv) AS gmv FROM mart_orders WHERE order_status='delivered' AND month IN (DATE '2018-05-01',DATE '2018-06-01') GROUP BY 1 ORDER BY 1"
+    }
+  ],
+  "hypotheses": [
+    {"id":"H1","claim":"月份天数或星期构成解释全部下降","check":"前28天比较、星期结构标准化；只检验是否足以解释，不声称消除所有季节性"},
+    {"id":"H2","claim":"首次观测购买群体是主要下降来源","check":"buyer_type金额桥接；新购买用户不等于新注册或获客流量"},
+    {"id":"H3","claim":"SP与watches_gifts的重叠切面值得优先排查","check":"州×品类×购买群体交叉拆解，而非相加两张贡献榜"},
+    {"id":"H4","claim":"当月无单Seller解释全部下降","check":"持续活跃、新增或恢复、当月无单的Seller金额桥接；无单不等于退出"},
+    {"id":"H5","claim":"同期履约变差导致订单下降","check":"检查最终状态与履约指标；发生在下单后的结果不能充当下单前原因"},
+    {"id":"H6","claim":"曝光减少、缺货或活动结束导致下降","check":"当前无对应字段，保留为取证方向，禁止写为已证实结论"}
+  ]
+}

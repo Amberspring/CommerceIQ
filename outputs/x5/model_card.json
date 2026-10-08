@@ -1,0 +1,54 @@
+{
+  "seed": 42,
+  "split": "60/20/20 stratified on treatment \u00d7 target, distinct client IDs",
+  "train_n": 120023,
+  "validation_n": 40008,
+  "test_n": 40008,
+  "features": [
+    "age",
+    "gender",
+    "historical_transactions",
+    "historical_spend",
+    "historical_aov",
+    "historical_recency",
+    "history_span",
+    "transactions_last30",
+    "historical_stores",
+    "historical_products",
+    "historical_units",
+    "card_tenure_days"
+  ],
+  "selected_model": "s_learner",
+  "selection_metric": "validation uplift at top 30%",
+  "policy_fraction": 0.3,
+  "test_policy": {
+    "n_control": 6023,
+    "n_treatment": 5980,
+    "control_rate": 0.47285405943881786,
+    "treatment_rate": 0.5352842809364549,
+    "effect": 0.062430221497636995,
+    "relative_lift": 0.1320285196911052,
+    "ci_low": 0.044575596606861445,
+    "ci_high": 0.08028484638841255,
+    "p_value": 7.924113918409473e-12,
+    "selected_customers": 12003,
+    "fraction": 0.3,
+    "bootstrap_ci": [
+      0.043093622579443214,
+      0.08015878166582174
+    ]
+  },
+  "test_all_customers": {
+    "n_control": 20012,
+    "n_treatment": 19996,
+    "control_rate": 0.6032880271836898,
+    "treatment_rate": 0.6365273054610923,
+    "effect": 0.03323927827740247,
+    "relative_lift": 0.05509686381904898,
+    "ci_low": 0.023731817009907917,
+    "ci_high": 0.04274673954489703,
+    "p_value": 7.471072376354181e-12
+  },
+  "uncertainty": "Bootstrap CI conditional on fitted model and selected policy; training variation excluded",
+  "limitations": "Retrospective holdout, not a new randomized targeting experiment; no measured campaign profit"
+}

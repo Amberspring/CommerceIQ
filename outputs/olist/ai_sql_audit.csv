@@ -1,0 +1,3 @@
+candidate,purpose,before_gmv,after_gmv,passed_amount_contract
+join_stress_example,主动构造的多对多 JOIN 校验反例，验证审核能否发现金额膨胀；不是生产候选或历史事故。,1013168.6400000332,900971.6100000215,False
+accepted_order_grain,复用已有订单粒度模型，避免重复计数。,977544.6900000245,856077.8600000174,True

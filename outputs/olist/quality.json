@@ -1,0 +1,98 @@
+[
+  {
+    "check": "orders unique key",
+    "actual": 99441,
+    "expected": 99441,
+    "passed": true
+  },
+  {
+    "check": "customers unique key",
+    "actual": 99441,
+    "expected": 99441,
+    "passed": true
+  },
+  {
+    "check": "products unique key",
+    "actual": 32951,
+    "expected": 32951,
+    "passed": true
+  },
+  {
+    "check": "sellers unique key",
+    "actual": 3095,
+    "expected": 3095,
+    "passed": true
+  },
+  {
+    "check": "category_translation unique key",
+    "actual": 71,
+    "expected": 71,
+    "passed": true
+  },
+  {
+    "check": "item composite key",
+    "actual": 112650,
+    "expected": 112650,
+    "passed": true
+  },
+  {
+    "check": "order_items->orders FK",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "order_payments->orders FK",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "order_reviews->orders FK",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "orders->customers FK",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "order_items->products FK",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "order_items->sellers FK",
+    "actual": 0,
+    "expected": 0,
+    "passed": true
+  },
+  {
+    "check": "order mart cardinality",
+    "actual": 99441,
+    "expected": 99441,
+    "passed": true
+  },
+  {
+    "check": "item mart cardinality",
+    "actual": 112650,
+    "expected": 112650,
+    "passed": true
+  },
+  {
+    "check": "GMV reconciliation all statuses",
+    "actual": 13591643.700012038,
+    "expected": 13591643.70001419,
+    "passed": true
+  },
+  {
+    "check": "payment reconciliation",
+    "actual": 16008872.119999068,
+    "expected": 16008872.119998764,
+    "passed": true
+  }
+]

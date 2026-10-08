@@ -1,0 +1,18 @@
+{
+  "n_control": 100058,
+  "n_treatment": 99981,
+  "control_rate": 0.6032800975434248,
+  "treatment_rate": 0.6365109370780448,
+  "effect": 0.03323083953462003,
+  "relative_lift": 0.055083599923049065,
+  "ci_low": 0.028978934865704475,
+  "ci_high": 0.03748274420353558,
+  "p_value": 6.623268877019162e-53,
+  "bootstrap_ci": [
+    0.02884149466291411,
+    0.037350612899506745
+  ],
+  "srm_p_assuming_50_50": 0.8633113903439603,
+  "n_per_arm_for_1pp_mde": 37403,
+  "causal_interpretation": "Conditional on random assignment, no interference and comparable observation windows; assignment protocol not independently audited."
+}

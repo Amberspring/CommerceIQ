@@ -1,0 +1,73 @@
+{
+  "before": "2018-05-01",
+  "after": "2018-06-01",
+  "weekday_standardized_change_pct": -7.723800433814098,
+  "top_cross_segment": {
+    "customer_state": "SP",
+    "category": "watches_gifts",
+    "buyer_type": "new",
+    "before_gmv": 45046.050000000054,
+    "after_gmv": 26113.850000000006,
+    "delta": -18932.200000000048,
+    "contribution_pp": -1.9367094101855922
+  },
+  "buyer_bridge": [
+    {
+      "segment": "new",
+      "before_gmv": 953140.05,
+      "after_gmv": 830699.75,
+      "delta": -122440.30000000005,
+      "contribution_pp": -12.525289253016153,
+      "dimension": "buyer_type"
+    },
+    {
+      "segment": "returning",
+      "before_gmv": 24404.64,
+      "after_gmv": 25378.11,
+      "delta": 973.4700000000012,
+      "contribution_pp": 0.0995831709750273,
+      "dimension": "buyer_type"
+    }
+  ],
+  "seller_bridge": [
+    {
+      "seller_status": "continuing",
+      "sellers": 799,
+      "before_gmv": 862157.8899999999,
+      "after_gmv": 741668.070000001,
+      "delta": -120489.82000000005
+    },
+    {
+      "seller_status": "inactive_this_month",
+      "sellers": 306,
+      "before_gmv": 115386.80000000003,
+      "after_gmv": 0.0,
+      "delta": -115386.80000000003
+    },
+    {
+      "seller_status": "new_or_reactivated",
+      "sellers": 366,
+      "before_gmv": 0.0,
+      "after_gmv": 114409.78999999979,
+      "delta": 114409.78999999979
+    }
+  ],
+  "ai_provenance": "本轮 Codex 助手生成并保存的分析候选与校验用反例；不是事后虚构的 API 调用记录。候选和审核由同一助手完成，用户尚未独立审核。",
+  "ai_sql_audit": [
+    {
+      "candidate": "join_stress_example",
+      "purpose": "主动构造的多对多 JOIN 校验反例，验证审核能否发现金额膨胀；不是生产候选或历史事故。",
+      "before_gmv": 1013168.6400000332,
+      "after_gmv": 900971.6100000215,
+      "passed_amount_contract": false
+    },
+    {
+      "candidate": "accepted_order_grain",
+      "purpose": "复用已有订单粒度模型，避免重复计数。",
+      "before_gmv": 977544.6900000245,
+      "after_gmv": 856077.8600000174,
+      "passed_amount_contract": true
+    }
+  ],
+  "claims_scope": "Arithmetic contributions and observational diagnostics; not proven causal mechanisms."
+}

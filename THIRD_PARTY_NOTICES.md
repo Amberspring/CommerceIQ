@@ -1,0 +1,7 @@
+# Third-party notices
+
+- **Olist & André Sionek, Brazilian E-Commerce Public Dataset by Olist**: official [Kaggle source](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), CC BY-NC-SA 4.0. Olist source data, derived Olist tables in `outputs/olist/`, and corresponding numerical/chart content preserve [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Processing modifications include aggregation, deduplication, metrics and chart generation. Code license does not supersede this.
+- **X5 Retail Group, RetailHero Uplift Modeling**: [official competition](https://ods.ai/competitions/x5-retailhero-uplift-modeling/data). Historical data obtained via scikit-uplift's public mirror. Dataset redistribution terms have not been independently confirmed. Raw and individual-level client/prediction files remain gitignored.
+- **scikit-uplift / Maksim Shevchenko and contributors**, MIT: runtime metric calls, data source URLs/checksums referenced from upstream. [License](https://github.com/maks-sh/scikit-uplift/blob/master/LICENSE). No vendored upstream source code in this repository.
+- sklearn, DuckDB, pandas, numpy, scipy, Streamlit, Plotly and other installed dependencies retain their own licenses in their distributions.
+- Additional researched repositories are cited in `docs/RESEARCH.md`; their downloaded source caches are not distributed or presented as original project implementation.

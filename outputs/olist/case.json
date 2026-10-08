@@ -1,0 +1,21 @@
+{
+  "before": "2018-05-01",
+  "after": "2018-06-01",
+  "before_gmv": 977544.6900000245,
+  "after_gmv": 856077.8600000174,
+  "delta": -121466.83000000706,
+  "change_pct": -12.425706082041529,
+  "shapley": {
+    "buyers": -90785.32163253549,
+    "frequency": -1907.7924504129915,
+    "aov": -28773.71591705858
+  },
+  "before_orders": 6749,
+  "after_orders": 6099,
+  "before_buyers": 6693,
+  "after_buyers": 6061,
+  "before_aov": 144.84289376204245,
+  "after_aov": 140.3636432202029,
+  "quality_checks": 16,
+  "causal_claim": false
+}

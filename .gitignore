@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/
+data/warehouse/
+data/processed/
+docs/research/*__*
+*.log
+.env
+.streamlit/secrets.toml
+outputs/olist/rfm.csv

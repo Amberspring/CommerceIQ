@@ -1,0 +1,28 @@
+{
+  "retrieved_at_utc": "2026-10-04T03:19:44.726083+00:00",
+  "files": [
+    {
+      "file": "olist.zip",
+      "source": "https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce",
+      "sha256": "967e41e04fc306fe604e2a693f488995a8b41e5047418f8a5c8e4abd6deca784"
+    },
+    {
+      "file": "uplift_train.csv.gz",
+      "source": "https://sklift.s3.eu-west-2.amazonaws.com/uplift_train.csv.gz",
+      "sha256": "0a218e864a1ec1dfe26e980a082b81d5f46d199c4a6ae32abbaa95265af1c2c7",
+      "upstream_md5": "2720bbb659daa9e0989b2777b6a42d19"
+    },
+    {
+      "file": "clients.csv.gz",
+      "source": "https://sklift.s3.eu-west-2.amazonaws.com/clients.csv.gz",
+      "sha256": "bfca1719b862735ae9816ed9bbba6924931c6a4dff761c481efe9addff458429",
+      "upstream_md5": "b9cdeb2806b732771de03e819b3354c5"
+    },
+    {
+      "file": "purchases.csv.gz",
+      "source": "https://sklift.s3.eu-west-2.amazonaws.com/purchases.csv.gz",
+      "sha256": "3d57519fa92b553fd1e947c120add475cc42e0c64c323a52cef5aebe8645c8e2",
+      "upstream_md5": "48d2de13428e24e8b61d66fef02957a8"
+    }
+  ]
+}

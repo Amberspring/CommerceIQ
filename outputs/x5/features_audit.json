@@ -1,0 +1,18 @@
+{
+  "labeled_clients": 200039,
+  "client_rows": 400162,
+  "feature_mode": "full_history",
+  "randomization_audit_available": false,
+  "excluded_fields": [
+    "client_id (as predictor)",
+    "first_redeem_date",
+    "target",
+    "treatment_flg"
+  ],
+  "purchase_rows": 45786568,
+  "history_start": "2018-11-21 21:02:33",
+  "history_end": "2019-03-18 23:40:03",
+  "cutoff_proxy": "2019-03-19 00:00:00",
+  "clients_with_history": 200039,
+  "inconsistent_basket_values": 0
+}
